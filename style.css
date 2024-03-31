@@ -1,0 +1,82 @@
+body{
+    font-family: Helvetica;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    padding: 5px;
+    background: rgba(0,0,0, 0.5);
+    top: 0;
+    width: 100%;
+    margin:auto;
+}
+
+#header h2{
+    font-size: 1.2em;
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+
+#container{
+    background-color:hsl(208, 10%, 74%);
+    height: 20%;
+    width: 30%;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    position:relative;
+}
+
+#song_author{
+    margin-top: -15px;
+}
+
+
+#controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -10px;
+}
+
+#controls button{
+    margin: 10px;
+    border-radius: 90px;
+    border-width: 0px;
+    padding: 14px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#previous:hover{
+    background-color: orange;
+}
+
+#next:hover{
+    background-color: orange;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    color : white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+
+@media screen and (width <= 768px) {
+    #container{
+        height: 40%;
+        width: 50%;
+        padding: 40px;
+    }
+}
